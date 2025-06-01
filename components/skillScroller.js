@@ -5,36 +5,44 @@ import { motion } from "framer-motion";
 
 
 // Skill icons
-import python from "../app/assets/skills/python.svg";
-import openai from "../app/assets/skills/openai.svg";
-import opencv from "../app/assets/skills/opencv.svg";
-import fastapi from "../app/assets/skills/fastapi.svg";
+import aws from "../app/assets/skills/aws svg.svg";
+import angular from "../app/assets/skills/angular.svg";
+import react from "../app/assets/skills/react.svg";
+import nodejs from "../app/assets/skills/node js.svg";
 import git from "../app/assets/skills/git.svg";
-import huggingface from "../app/assets/skills/huggingface.svg";
-import keras from "../app/assets/skills/Keras.svg";
-import llamaindex from "../app/assets/skills/llamaindex.jpeg";
+import JavaScript from "../app/assets/skills/js.svg";
+import TypeScript from "../app/assets/skills/ts.svg";
 import mongodb from "../app/assets/skills/mongodb.svg";
 import mysql from "../app/assets/skills/mysql.svg";
 import postgresql from "../app/assets/skills/postgresql.svg"; // ✅ fixed
 import postman from "../app/assets/skills/postman.svg";
-import sklearn from "../app/assets/skills/scikit_learn.svg";
-import tensorflow from "../app/assets/skills/tensorflow.svg";
 
 const skills = [
-  { id: 1, name: "Python", icon: python },
-  { id: 2, name: "OpenAI", icon: openai },
-  { id: 3, name: "OpenCV", icon: opencv },
-  { id: 4, name: "FastAPI", icon: fastapi },
+  { id: 1, name: "AWS", icon: aws },
+  { id: 2, name: "Angular", icon: angular },
+  { id: 3, name: "React", icon: react },
+  { id: 4, name: "Node JS", icon: nodejs },
   { id: 5, name: "Git", icon: git },
-  { id: 6, name: "Hugging-Face", icon: huggingface },
-  { id: 7, name: "Keras", icon: keras },
-  { id: 8, name: "Llama-Index", icon: llamaindex },
+  { id: 6, name: "Java Script", icon: TypeScript },
+  { id: 7, name: "Type Script", icon: JavaScript },
+  // { id: 8, name: "Llama-Index", icon: llamaindex },
   { id: 9, name: "PostgreSQL", icon: postgresql },
   { id: 10, name: "MongoDB", icon: mongodb },
   { id: 11, name: "MySQL", icon: mysql },
   { id: 12, name: "Postman", icon: postman },
-  { id: 13, name: "Scikit-Learn", icon: sklearn },
-  { id: 14, name: "TensorFlow", icon: tensorflow },
+  // { id: 13, name: "Scikit-Learn", icon: sklearn },
+  // { id: 14, name: "TensorFlow", icon: tensorflow },
+  // supabase
+  // socketio
+  // aws
+  // react
+  // nextjs
+  // tailwindcss  
+  // prime ng
+  // angular
+  // android
+  // wordpress
+
 ];
 
 

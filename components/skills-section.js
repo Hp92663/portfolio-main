@@ -33,18 +33,18 @@ import tensorflow from "../app/assets/skills/tensorflow.svg"
 //   { name: "Firebase", icon: "🔥" },
 // ];
 const skills = [
-  { name: 'Python', icon: python},
+  { name: 'Python', icon: python },
   { name: 'OpenAI', icon: openai },
   { name: 'OpenCV', icon: opencv },
-  { name: 'FastAPI', icon:fastapi },
+  { name: 'FastAPI', icon: fastapi },
   { name: 'Git', icon: git },
   { name: 'Hugging-Face', icon: huggingface },
   { name: 'Keras', icon: keras },
   { name: 'Llama-Index', icon: llamaindex },
   { name: 'PostgreSQL', icon: postgresql },
   { name: 'MongoDB', icon: mongodb },
-  { name: 'MySQL', icon:mysql },
-  { name: 'Postman', icon: postman},
+  { name: 'MySQL', icon: mysql },
+  { name: 'Postman', icon: postman },
   { name: 'Scikit-Learn', icon: sklearn },
   { name: 'TensorFlow', icon: tensorflow },
 ];
@@ -70,7 +70,7 @@ export function SkillsSection() {
           </p>
         </motion.div>
 
-            {/* <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
               {skills.map((skill, index) => (
                 <motion.div
                   key={skill.name}
@@ -85,8 +85,8 @@ export function SkillsSection() {
                 </motion.div>
               ))}
             </div> */}
-            
-            {/* <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 max-w-6xl mx-auto">
+
+        {/* <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 max-w-6xl mx-auto">
             {skills.map((skill, index) => (
               <motion.div
                 key={skill.name}
@@ -112,8 +112,8 @@ export function SkillsSection() {
             ))}
           </div> */}
 
-        
-          {/* <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 max-w-6xl mx-auto">
+
+        {/* <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 max-w-6xl mx-auto">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
@@ -154,7 +154,7 @@ export function SkillsSection() {
               <div className="relative z-0 transition-all duration-300 ease-in-out transform group-hover:-translate-y-1">
                 {/* Semi-transparent background blur effect */}
                 <div className="absolute inset-0 bg-white/50 backdrop-blur-sm rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
+
                 {/* Content container */}
                 <div className="relative flex flex-col items-center justify-center p-4 rounded-xl transition-all duration-300">
                   {/* Icon with hover effect */}
@@ -167,7 +167,7 @@ export function SkillsSection() {
                       className="transition-all duration-300"
                     />
                   </div>
-                  
+
                   {/* Text with fade-in effect */}
                   <span className="text-sm text-gray-600 group-hover:text-gray-900 transition-colors duration-300 relative">
                     {skill.name}
