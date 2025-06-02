@@ -6,19 +6,19 @@ const experienceData = [
   {
     id: 1,
     type: 'work',
-    title: 'AI/ML ENGINEER',
-    company: 'Nexgits',
+    title: 'Full Stack Developer',
+    company: 'Tankhwa Patra',
     description: 'Promote your blog posts, case studies, and product announcements with themed branded videos.',
-    year: '06/2024 - Present',
+    year: '01/2024 - Present',
     tagColor: 'bg-orange-500'
   },
   {
     id: 2,
     type: 'work',
-    title: 'AI/ML Trainee',
-    company: 'Upforce Tech',
+    title: 'WordPress',
+    company: 'Freelancing',
     description: 'Promote your blog posts, case studies, and product announcements with themed branded videos.',
-    year: '12/2023 - 06/2024',
+    year: '04/2022 - 10/2022',
     tagColor: 'bg-green-500'
   }
 ];
@@ -28,7 +28,7 @@ const educationData = [
     id: 3,
     type: 'education',
     title: 'Master of Computer Applications',
-    company: ' L. D. College of Engineering',
+    company: 'Gujarat Technological University',
     description: 'Promote your blog posts, case studies, and product announcements with themed branded videos.',
     year: '2022 - 2024',
     tagColor: 'bg-blue-500'
@@ -36,7 +36,7 @@ const educationData = [
   {
     id: 4,
     type: 'education',
-    title: "Bachelor of Business Administration",
+    title: "Bachelor of Computer Application",
     company: 'Gujarat University',
     description: 'Promote your blog posts, case studies, and product announcements with themed branded videos.',
     year: '2019 - 2022',
@@ -142,13 +142,12 @@ const Experience = () => {
             return (
               <div key={item.id} className="relative pl-12">
                 <div
-                  className={`absolute left-4 w-4 h-4 rounded-full border-4 border-gray shadow-lg transition-all duration-300 ${
-                    isCurrent
-                      ? `bg-${primaryColor} animate-pulse shadow-${primaryColor}-500/50`
-                      : isVisited
+                  className={`absolute left-4 w-4 h-4 rounded-full border-4 border-gray shadow-lg transition-all duration-300 ${isCurrent
+                    ? `bg-${primaryColor} animate-pulse shadow-${primaryColor}-500/50`
+                    : isVisited
                       ? 'bg-gray-400'
                       : 'bg-gray-200'
-                  }`}
+                    }`}
                 ></div>
 
                 <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
@@ -180,8 +179,8 @@ const Experience = () => {
   return (
     <div className="bg-gradient-to-br from-slate-50 to-slate-100 py-8">
       <div className=" mx-auto px-6">
-        
-        <div className="grid md:grid-cols-2 gap-12"x>
+
+        <div className="grid md:grid-cols-2 gap-12" x>
           {renderTimeline(experienceData, 'work')}
           {renderTimeline(educationData, 'education')}
         </div>

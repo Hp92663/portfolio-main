@@ -107,37 +107,32 @@ function HeroSection() {
               variants={textVariants}
             >
               <span className="bg-custom-gradient from-teal-600 to-blue-600 bg-clip-text text-transparent">
-                Akshay Satasiya
+                Hiren Khut
               </span>
               <WaveEmoji />
             </motion.h1>
 
             <motion.div className="relative overflow-hidden" variants={typewriterVariants}>
-                <TypeWriter 
-                  words={[
-                    "Data Science",
-                    "Artificial Intelligence",
-                    "Generative AI",
-                    "Machine Learning", 
-                    "Computer Vision",
-                    "Agentic AI"
-                  ]}
-                  className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-custom-gradient"
-                  typeSpeed={100}
-                  deleteSpeed={50}
-                  delayBetweenWords={1500}
-                />
+              <TypeWriter
+                words={[
+                  "Web Developer",
+                  "Angular Developer",
+                  "Nest js Developer",
+                  "Node js Developer",
+                  "AWS",
+                ]}
+                className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-custom-gradient"
+                typeSpeed={100}
+                deleteSpeed={50}
+                delayBetweenWords={1500}
+              />
             </motion.div>
 
             <motion.p
               className="text-black-600 mb-8 leading-relaxed"
               variants={textVariants}
             >
-              I am a forward-thinking Data Scientist and AI/ML Engineer with over 2 years of experience,
-              specializing in Deep Learning, Natural Language Processing (NLP), and Generative AI. I focus
-              on developing innovative AI applications that are shaping the future of technology by
-              automating processes, improving communication, and delivering transformative, AI-powered
-              solutions.
+              I am a Full Stack Developer with over 2 years of experience specializing in Angular, Node.js, NestJS, AWS, and WordPress. I have a strong track record of building robust and scalable web applications across various domains including e-commerce, HRMS, accounting, and other enterprise software solutions. I focus on delivering efficient, secure, and user-centric applications that streamline business operations and drive digital innovation.
             </motion.p>
 
             {/* Buttons and Social Links */}
@@ -146,13 +141,13 @@ function HeroSection() {
               variants={textVariants}
             >
               <AnimatedButton
-              svg={<Download className="h-4 w-4" />}
-              title={"Download CV"}
-               />
+                svg={<Download className="h-4 w-4" />}
+                title={"Download CV"}
+              />
 
               <div className="flex gap-4">
                 <motion.a
-                  href="https://www.linkedin.com/in/akshaysatasiya/"
+                  href="https://www.linkedin.com/in/hirenkhut/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
@@ -169,7 +164,7 @@ function HeroSection() {
                 </motion.a>
 
                 <motion.a
-                  href="https://github.com/AkshaySatasiya"
+                  href="https://github.com/Hp92663"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
@@ -210,7 +205,7 @@ function HeroSection() {
                 <div className="w-full h-full flex items-center justify-center bg-transparent rounded-full from-teal-400 to-blue-500  bg-custom-gradient">
                   <Image
                     src={avatar}
-                    alt="Akshay Satasiya - Data Scientist"
+                    alt="Hiren Khut - Software Developer"
                     className="object-contain w-full h-full"
                   />
                 </div>

@@ -99,20 +99,20 @@ export function Footer() {
   ];
 
   const socialLinks = [
-    { 
-      iconSrc: linkedin, 
-      href: "https://www.linkedin.com/in/akshaysatasiya/", 
-      label: 'LinkedIn' 
+    {
+      iconSrc: linkedin,
+      href: "https://www.linkedin.com/in/hirenkhut/",
+      label: 'LinkedIn'
     },
-    { 
-      iconSrc: github, 
-      href: "https://github.com/AkshaySatasiya", 
-      label: 'GitHub' 
+    {
+      iconSrc: github,
+      href: "https://github.com/hirenkhut",
+      label: 'GitHub'
     },
-    { 
-      iconSrc: upwork, 
-      href: "https://www.upwork.com/freelancers/~013a987adc88e1a6ec", 
-      label: 'Upwork' 
+    {
+      iconSrc: upwork,
+      href: "https://www.upwork.com/freelancers/~013a987adc88e1a6ec",
+      label: 'Upwork'
     },
   ];
 
@@ -133,7 +133,7 @@ export function Footer() {
       {/* Logo */}
       <div className="text-center mb-6">
         <Link href="/" className="text-2xl font-semibold">
-          Akshay Satasiya
+          Hiren Khut
         </Link>
       </div>
 
@@ -162,19 +162,19 @@ export function Footer() {
             className="text-gray-500 hover:text-gray-900 transition-colors p-2 hover:bg-gray-200 rounded-full"
           >
             <motion.div
-                    variants={iconHoverAnimation}
-                    whileHover="hover"
-                    className="flex items-center justify-center"
-                  >
-              <Image 
-                src={social.iconSrc} 
-                alt={social.label} 
-                width={40} 
-                height={40} 
+              variants={iconHoverAnimation}
+              whileHover="hover"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src={social.iconSrc}
+                alt={social.label}
+                width={40}
+                height={40}
                 className="w-6 h-6"
               />
             </motion.div>
-            
+
             <span className="sr-only">{social.label}</span>
           </a>
         ))}
@@ -182,7 +182,7 @@ export function Footer() {
 
       {/* Copyright */}
       <div className="text-center text-gray-500 text-sm">
-        <p>©akshaysatasiya {new Date().getFullYear()}, All rights reserved.</p>
+        <p>©hirenkhut {new Date().getFullYear()}, All rights reserved.</p>
       </div>
     </footer>
   );

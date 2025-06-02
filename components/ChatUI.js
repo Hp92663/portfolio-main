@@ -11,8 +11,8 @@ import Link from 'next/link';
 const ChatbotUI = ({ onClose }) => {
   const [messages, setMessages] = useState([
     {
-      sender: "bot", text: `Hi there! 👋 I'm **AkshAI**,
-      your guide to Akshay's portfolio. How can I assist you today?`,
+      sender: "bot", text: `Hi there! 👋 I'm **Chankya AI**,
+      your guide to Hiren's portfolio. How can I assist you today?`,
     },
   ]);
   const [input, setInput] = useState("");
@@ -121,8 +121,8 @@ const ChatbotUI = ({ onClose }) => {
             >
               <div
                 className={`p-3 rounded-2xl max-w-[85%] ${msg.sender === "bot"
-                    ? "bg-white border border-gray-200 text-gray-800"
-                    : "bg-custom-gradient text-white"
+                  ? "bg-white border border-gray-200 text-gray-800"
+                  : "bg-custom-gradient text-white"
                   }`}
               >
                 {msg.sender === "bot" ? (
@@ -165,8 +165,8 @@ const ChatbotUI = ({ onClose }) => {
             onClick={handleSend}
             disabled={!input.trim()}
             className={`ml-2 p-2 rounded-full transition-colors ${input.trim()
-                ? "bg-custom-gradient text-white hover:bg-custom-gradient-300"
-                : "bg-custom-gradient text-white cursor-not-allowed"
+              ? "bg-custom-gradient text-white hover:bg-custom-gradient-300"
+              : "bg-custom-gradient text-white cursor-not-allowed"
               }`}
           >
             <Send className="w-4 h-4" />

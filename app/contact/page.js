@@ -66,7 +66,7 @@ const ContactPage = () => {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-600">akshaysatasiya2811@gmail.com</p>
+                  <p className="text-gray-600">hirenkhut92663@gmail.com</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ const ContactPage = () => {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+91 9825972156</p>
+                  <p className="text-gray-600">+91 8160343272</p>
                 </div>
               </div>
             </div>
@@ -140,9 +140,9 @@ const ContactPage = () => {
                     Submit Now
                   </button> */}
                   <AnimatedButton
-            title ='Submit Now' 
-            svg=''
-           />
+                    title='Submit Now'
+                    svg=''
+                  />
                 </div>
               </form>
             </div>
