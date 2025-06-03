@@ -147,7 +147,7 @@ function HeroSection() {
 
               <div className="flex gap-4">
                 <motion.a
-                  href="https://www.linkedin.com/in/hirenkhut/"
+                  href="https://www.linkedin.com/in/hiren-khut"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"

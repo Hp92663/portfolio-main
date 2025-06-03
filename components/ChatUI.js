@@ -98,7 +98,7 @@ const ChatbotUI = ({ onClose }) => {
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
           </div>
           {/* <Image src={chatbotIcon} height={isMobile ? 50 : 50} width={isMobile ? 50 : 50} alt="chat_logo" /> */}
-          <h2 className="text-lg font-bold ml-2">AkshAI</h2>
+          <h2 className="text-lg font-bold ml-2">Chankya AI</h2>
         </div>
         <button
           onClick={onClose}

@@ -101,7 +101,7 @@ export function Footer() {
   const socialLinks = [
     {
       iconSrc: linkedin,
-      href: "https://www.linkedin.com/in/hirenkhut/",
+      href: "https://www.linkedin.com/in/hiren-khut",
       label: 'LinkedIn'
     },
     {
